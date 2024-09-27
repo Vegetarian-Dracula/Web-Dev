@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/baguile" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sign-up_style.css">
+    <title>Fly High</title>
+</head>
+<body>
+    <div class="main">
+        <div class="name">Mathew Thomas(2260397)<br>Geo Jacob(2260368)</div>
+        <div class="logo-container">
+            <div class="naming">
+                FLY<br>HIGH
+            </div>
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+        </div>
+        <form class="sign-up" id="sign">
+            <h1>Create Account</h1>
+            <div class="small-container">
+                <fieldset class="small">
+                    <legend for="username">Username</legend>
+                    <input type="text" name="username" id="name">
+                    <span id="userError" class="error"></span>
+                </fieldset>
+                
+                <fieldset class="small">
+                    <legend for="number">Phone</legend>
+                    <input type="number" name="number" id="number">
+                    <span id="numError" class="error"></span>
+                </fieldset>
+                
+            </div>
+            <fieldset class="large">
+                <legend for="mail">Email</legend>
+                <input type="email" name="mail" id="mail">
+                <span id="emailError" class="error"></span>
+            </fieldset>
+            
+            <fieldset class="large">
+                <legend for="password">Password</legend>
+                <input type="password" id="password" name="password">
+                <span id="passwordError" class="error"></span>
+            </fieldset>
+            
+            <div class="Sign-up-button" id="sign">
+                <a>
+                    <button type="submit">Sign Up</button>
+                    <p>Already have an account?<a href="login.html"> Log In</a></p>
+                </a>
+            </div>
+        </form>
+    </div>
+    <script src="sign-up.js"></script>
+</body>
+</html>
